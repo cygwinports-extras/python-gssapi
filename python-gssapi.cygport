@@ -1,0 +1,12 @@
+inherit python-wheel
+
+NAME="python-gssapi"
+VERSION=1.5.1
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Python GSS-API bindings"
+DESCRIPTION="Python-GSSAPI provides both low-level and high level wrappers
+around the GSSAPI C libraries. While it focuses on the Kerberos mechanism,
+it should also be useable with other GSSAPI mechanisms."
+
+export GSSAPI_MAIN_LIB="/usr/bin/cyggssapi_krb5-2.dll"
